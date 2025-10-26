@@ -59,6 +59,7 @@ git merge feature -m "merge feature to main"
 | `Git merge` thường được dùng khi nhánh đích là **nhánh dùng chung (shared branch)**. | `Git rebase` thường được dùng khi nhánh đích là **nhánh cá nhân (private branch)**. |
 
 **Commit graph**
+
 ![Commit graph](images/commitgraph.png)
 
 
