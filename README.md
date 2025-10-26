@@ -14,7 +14,7 @@ Thực hành các bài tập về **Git**
 ```c
  git clone https://github.com/fhpthh/lab_github.git
 ```
-**2. Thực hiển chỉnh sửa và quản lý phiên bản**
+**2. Thực hiện chỉnh sửa và quản lý phiên bản**
 - Chỉnh sửa file README.md
 - Thực hiện các lệnh 
 ```c
@@ -23,12 +23,19 @@ git commit -m"update"
 git push -u origin main
 ```
 **3. So sánh ***git merge*** và ***git rebase*****
-Tạo và di chuyển sang nhánh mới feature
+- Tạo và di chuyển sang nhánh mới feature
 ```
 git checkout -b feature
 git add README.md
 git commit -m "update branch feature"
 ```
+- Quay trở lại nhánh main
+```
+git checkout main
+git add README.md
+git commit -m "update branch main"
+```
+
 
 
 
