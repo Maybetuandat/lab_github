@@ -42,10 +42,29 @@ git commit -m "update branch main"
 git merge feature -m "merge feature to main"
 ```
 
+**Git rebase**
+- Chuyển sang nhánh feature
+- Cập nhật file README.md
+- **git rebase main**
 
-**Git reabse**
+![Commit graph](images/gitrebase.png)
+
+### So sánh giữa Merge và Rebase
+
+| **Merge** | **Rebase** |
+|------------|------------|
+| `Git merge` là lệnh cho phép hợp nhất (merge) các nhánh trong Git. | `Git rebase` là lệnh cho phép tích hợp các thay đổi từ một nhánh này sang nhánh khác. |
+| Trong **Git Merge**, nhật ký (log) sẽ hiển thị toàn bộ lịch sử của quá trình gộp commit. | Trong **Git Rebase**, nhật ký (log) là tuyến tính vì các commit được “phát lại” (rebase). |
+| Tất cả các commit trên nhánh **feature** sẽ được kết hợp thành một commit duy nhất trên nhánh **master/main**. | Tất cả commit sẽ được **rebase** và giữ nguyên số lượng commit khi thêm vào nhánh **master/main**. |
+| `Git merge` thường được dùng khi nhánh đích là **nhánh dùng chung (shared branch)**. | `Git rebase` thường được dùng khi nhánh đích là **nhánh cá nhân (private branch)**. |
+
+**Commit graph**
+![Commit graph](images/commitgraph.png)
+
+
+
 ### Files used
-Include the files used
+README.md
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
