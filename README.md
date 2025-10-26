@@ -23,7 +23,8 @@ git commit -m"update"
 git push -u origin main
 ```
 **3. So sánh ***git merge*** và ***git rebase*****
-- Tạo và di chuyển sang nhánh mới feature
+**Git merge**
+Tạo và di chuyển sang nhánh mới feature
 ```
 git checkout -b feature
 git add README.md
