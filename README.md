@@ -43,7 +43,7 @@ git merge feature -m "merge feature to main"
 ```
 
 
-
+**Git reabse**
 ### Files used
 Include the files used
 
