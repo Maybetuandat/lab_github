@@ -36,7 +36,10 @@ git add README.md
 git commit -m "update branch main"
 ```
 
-
+- Dùng lệnh **git merge** để merge feature vào main
+``` 
+git merge feature -m "merge feature to main"
+```
 
 
 
