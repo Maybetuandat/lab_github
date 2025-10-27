@@ -48,7 +48,22 @@ E | Commit your work with a descriptive message |`git commit -m "update README"`
 G | Push your commit to your remote repository branch. | `git push origin documentation`
 H | Switch back to the master branch. | `git checkout main`
 
-```
+**3. Additional Changes to Documentation.**
+
+**In a real world situation, you or other members of your team would likely be making other changes to documentation on the documentation branch.  To simulate this follow the tasks below.**
+
+
+|  |**Tasks**| **Git Commands**|
+|------------|------------|---------|
+|A|Switch to the documentation  branch. | `git checkout documentation` |
+B| Make at least 2 additional changes to the documentation - this might be additional changes to the README or changes to the document strings and line comments of the bikeshare file. | `git switch documentation`|
+C | After each change, stage and commit your changes. When you commit your work, you should use a descriptive message of the changes made.  Your changes should be small and aligned with your commit message.|`echo "## Updated documentation section" >> README.md`|
+D | Push your changes to the remote repository branch|`git add README.md`|
+E | Switch back to the master branch. |`git commit -m "update README"` |
+F | Check the local repository log to see how all the branches have changed | `git push origin documentation`
+G | Go to Github.  Notice that you now have two branches available for your project, and when you change branches the README changes. | `git checkout main`
+
+
 **3. So sánh ***git merge*** và ***git rebase*****
 **Git merge**
 Tạo và di chuyển sang nhánh mới feature
