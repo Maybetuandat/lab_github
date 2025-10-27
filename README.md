@@ -34,6 +34,19 @@ G | Commit your changes with a descriptive message. | `git commit -m "move bikes
 H | Push your commit to your remote repository. | `git push origin main`
 
 
+**5. Merge Branches**
+
+|  |**Tasks**| **Git Commands**|
+|------------|------------|---------|
+|A| CSwitch to the master branch. | `git checkout main` |
+B| Pull the changes you and your coworkers might have made in the passing days (in this case, you won't have any updates, but pulling changes is often the first thing you do each day). | `git pull origin main`|
+C | Since your changes are all ready to go, merge all the branches into the master. Address any merge conflicts. If you split up your work among your branches correctly, you should have no merge conflicts.|`git merge documentation && git merge rèactoring`|
+D | You should see a message that shows the changes to the files, insertions, and deletions.||
+E | Push the repository to your remote repository. |`git push origin main` |
+F | Stage your changes. |`git add .`|
+G | Go to GitHub.  Notice that your master branch has all of the changes. |
+
+
 **2. Thực hiện chỉnh sửa và quản lý phiên bản**
 - Chỉnh sửa file README.md
 - Thực hiện các lệnh 
