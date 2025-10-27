@@ -9,10 +9,10 @@ lab_github
 Đây là bài tập thực hành sử dụng Git
 
 ### Files used
-README.md
-.gitignore
-bikeshare.py
-data.csv
+- README.md
+- .gitignore
+- bikeshare.py
+- data.csv
 
 ### Credits
 [Repo gốc](https://github.com/Maybetuandat/lab_github)
