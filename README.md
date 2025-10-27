@@ -9,12 +9,31 @@ Lab_Github
 ### Description
 Thực hành các bài tập về **Git**
 
-**1. Folk và Clone dự án**
-- Folk dự án:
-- Clone dự án:
+**1. SetUp Your Rrepository**
+The following are the steps you will take to create your git repository, add your python code, and post your files on GitHub.
+
+Step 1. Create a GitHub profile (if you don’t already have one).
+
+Step 2. Fork a repository from https://github.com/Maybetuandat/lab_github  and provide a link to your forked GitHub repository here:
+
 ```c
- git clone https://github.com/fhpthh/lab_github.git
+ https://github.com/fhpthh/lab_github.git
 ```
+
+Step 3. Complete the tasks outlined in the table below and copy and paste your git commands into the “Git Commands” column. The first git command is partially filled out for you
+
+|  |**Tasks**| **Git Commands**|
+|------------|------------|---------|
+|A| Clone the GitHub repository to your local repository. | `git clone https://github.com/fhpthh/lab_github.git ` |
+B| Move your bikeshare.py and data files into your local repository | ```move <source_path>\bikeshare.py D:\CLOUD\lab_github\```|
+C | Create a .gitignore file containing the name of your data file.|`echo "data.csv" > .gitignore`|
+D | List the file names associated with the data files you added to your .gitignore |`type .gitignore`|
+E | Check the status of your files to make sure your files are not being tracked |`git status` |
+F | Stage your changes. |`git add .`|
+G | Commit your changes with a descriptive message. | `git commit -m "move bikeshare.py and  add data.csv to .gitgnore"`
+H | Push your commit to your remote repository. | `git push origin main`
+
+
 **2. Thực hiện chỉnh sửa và quản lý phiên bản**
 - Chỉnh sửa file README.md
 - Thực hiện các lệnh 
