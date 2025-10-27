@@ -34,52 +34,6 @@ G | Commit your changes with a descriptive message. | `git commit -m "move bikes
 H | Push your commit to your remote repository. | `git push origin main`
 
 
-
-**2. Improve Documentation** 
-**Now you will be working in your local repository, on the BikeShare python file and the README.md file. You should repeat steps C through E three times to make at least three commits as you work on your documentation improvements.**
-
-
-|  |**Tasks**| **Git Commands**|
-|------------|------------|---------|
-|A|Create a branch named documentation on your local repository | `git branch documentation` |
-B| Switch to the documentation branch. | `git switch documentation`|
-C | Update your README.md file.|`echo "## Updated documentation section" >> README.md`|
-D | Stage your changes |`git add README.md`|
-E | Commit your work with a descriptive message |`git commit -m "update README"` |
-G | Push your commit to your remote repository branch. | `git push origin documentation`
-H | Switch back to the master branch. | `git checkout main`
-
-**3. Additional Changes to Documentation.**
-
-**In a real world situation, you or other members of your team would likely be making other changes to documentation on the documentation branch.  To simulate this follow the tasks below.**
-
-
-|  |**Tasks**| **Git Commands**|
-|------------|------------|---------|
-|A|Switch to the documentation  branch. | `git checkout documentation` |
-B| Make at least 2 additional changes to the documentation - this might be additional changes to the README or changes to the document strings and line comments of the bikeshare file. ||
-C | After each change, stage and commit your changes. When you commit your work, you should use a descriptive message of the changes made.  Your changes should be small and aligned with your commit message.|`git add README.md && git commit -m "sua README v1"`|
-D | Push your changes to the remote repository branch|`git push origin documentation`|
-E | Switch back to the master branch. |`git checkout main` |
-F | Check the local repository log to see how all the branches have changed | `git log --oneline --graph --all`
-G | Go to Github.  Notice that you now have two branches available for your project, and when you change branches the README changes. |
-
-
-
-**4. Refactor Code**
-**Now you will be working in your local repository, on the code in your BikeShare python file to make improvements to its efficiency and readability. You should repeat steps C through E three times to make at least three commits as you refactor.**
-
-| | Tasks |Git Command
-|-----------|----------|--------|
-A | Create a branch named refactoring on your local repository. |`git branch refactoring` |
-B | Switch to the refactoring  branch. | `git checkout refactoring`
-C |Similar to the process you used in  making the documentation changes, make 2 or more changes in refactoring your code.| 
-D |For each change, stage and commit your work with a descriptive message of the changes made|`git add bikeshare.py && git commit -m "update bikeshare.py"`
-E |Push your commits to your remote repository branch| `git push origin refactoring`
-F |Switch back to the master branch.| `git checkout main`
-G |Check the local repository log to see how all the branches have changed|`git log --oneline --graph --all`
-H |Go to GitHub.  Notice that you now have 3 branches.  Notice how the files change as you move through the branches|
-
 **5. Merge Branches**
 
 |  |**Tasks**| **Git Commands**|
@@ -92,17 +46,16 @@ E | Push the repository to your remote repository. |`git push origin main` |
 F | Stage your changes. |`git add .`|
 G | Go to GitHub.  Notice that your master branch has all of the changes. |
 
-**6. Changing older commit messages**
-|  |**Tasks**| **Git Commands**|
-|------------|------------|---------|
-|A| Switch to the master branch. | `git checkout main` |
-B| Check the local repository log to see how all the branches have changed.. | `git pull origin main`|
-C | Display a list of the commits that need edit messages.|`git log --oneline`|
-D |Adding types to the titles commit into older commit messages |`git rebase -i HEAD~3` |
-F |Push the repository to your remote repository. |`git add .`|
-G | Go to GitHub.  Notice that your master branch has all of the changes. |
 
-**So sánh ***git merge*** và ***git rebase*****
+**2. Thực hiện chỉnh sửa và quản lý phiên bản**
+- Chỉnh sửa file README.md
+- Thực hiện các lệnh 
+```c
+git add .
+git commit -m"update"
+git push -u origin main
+```
+**3. So sánh ***git merge*** và ***git rebase*****
 **Git merge**
 Tạo và di chuyển sang nhánh mới feature
 ```
