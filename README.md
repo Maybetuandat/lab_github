@@ -114,7 +114,7 @@ G | Go to GitHub.  Notice that your master branch has all of the changes.
 
 **Commit graph**
 
-![Commit graph](images/commitgraph.png)
+![Commit graph](images/graph.png)
 
 
 
