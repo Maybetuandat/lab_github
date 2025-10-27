@@ -10,7 +10,7 @@ Lab_Github
 Thực hành các bài tập về **Git**
 
 **1. SetUp Your Rrepository**
-The following are the steps you will take to create your git repository, add your python code, and post your files on GitHub.
+**The following are the steps you will take to create your git repository, add your python code, and post your files on GitHub.**
 
 Step 1. Create a GitHub profile (if you don’t already have one).
 
@@ -34,13 +34,21 @@ G | Commit your changes with a descriptive message. | `git commit -m "move bikes
 H | Push your commit to your remote repository. | `git push origin main`
 
 
-**2. Thực hiện chỉnh sửa và quản lý phiên bản**
-- Chỉnh sửa file README.md
-- Thực hiện các lệnh 
-```c
-git add .
-git commit -m"update"
-git push -u origin main
+**2. Improve Documentation** 
+**Now you will be working in your local repository, on the BikeShare python file and the README.md file. You should repeat steps C through E three times to make at least three commits as you work on your documentation improvements.**
+
+
+|  |**Tasks**| **Git Commands**|
+|------------|------------|---------|
+|A|Create a branch named documentation on your local repository | `git branch documentation` |
+B| Switch to the documentation branch. | `git switch documentation`|
+C | Update your README.md file.|`echo "## Updated documentation section" >> README.md`|
+D | Stage your changes |`type .gitignore`|
+E | Commit your work with a descriptive message |`git status` |
+F | Stage your changes. |`git add .`|
+G | Push your commit to your remote repository branch. | `git commit -m "move bikeshare.py and  add data.csv to .gitgnore"`
+H | Switch back to the master branch. | `git push origin main`
+
 ```
 **3. So sánh ***git merge*** và ***git rebase*****
 **Git merge**
@@ -89,3 +97,4 @@ README.md
 
 ### Credits
 
+"## Updated documentation section" 
