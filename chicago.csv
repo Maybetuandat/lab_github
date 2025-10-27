@@ -1,0 +1,21 @@
+Start Time,End Time,Trip Duration,Start Station,End Station,User Type,Gender,Birth Year
+2017-06-01 00:00:13,2017-06-01 00:08:42,509,Lincoln Park Conservatory,Ashland Ave & Division St,Subscriber,Male,1980.0
+2017-06-01 00:01:21,2017-06-01 00:08:40,439,Clinton St & Lake St,Clinton St & Washington Blvd,Subscriber,Male,1985.0
+2017-06-01 00:02:15,2017-06-01 00:15:35,799,Shore Drive & 55th St,Greenwood Ave & 47th St,Subscriber,Female,1992.0
+2017-06-01 00:04:12,2017-06-01 00:11:13,421,State St & 33rd St,Michigan Ave & 14th St,Customer,,
+2017-06-01 00:07:30,2017-06-01 00:15:00,450,Wells St & Huron St,Clark St & Elm St,Subscriber,Male,1975.0
+2017-06-01 00:09:45,2017-06-01 00:19:15,570,Wabash Ave & 9th St,Ogden Ave & Congress Pkwy,Subscriber,Female,1988.0
+2017-06-01 00:12:05,2017-06-01 00:20:10,485,Broadway & Barry Ave,Halsted St & Clybourn Ave,Customer,,
+2017-06-01 00:15:00,2017-06-01 00:25:30,630,Millennium Park,Shedd Aquarium,Subscriber,Male,1990.0
+2017-06-01 00:18:40,2017-06-01 00:24:25,345,Damen Ave & Charleston St,Paulina St & North Ave,Subscriber,Female,1983.0
+2017-06-01 00:20:00,2017-06-01 00:30:00,600,Lake Shore Dr & North Blvd,Division St & Dearborn St,Customer,,
+2017-06-01 00:30:30,2017-06-01 00:38:00,450,Halsted St & Clybourn Ave,Broadway & Barry Ave,Subscriber,Male,1985.0
+2017-06-01 00:40:10,2017-06-01 00:44:50,280,Clinton St & Washington Blvd,Clinton St & Lake St,Subscriber,Male,1985.0
+2017-06-01 00:50:55,2017-06-01 01:00:10,555,Ashland Ave & Division St,Lincoln Park Conservatory,Subscriber,Female,1980.0
+2017-06-01 01:05:00,2017-06-01 01:15:00,600,Greenwood Ave & 47th St,Shore Drive & 55th St,Customer,,
+2017-06-01 01:10:20,2017-06-01 01:18:00,460,Clark St & Elm St,Wells St & Huron St,Subscriber,Male,1975.0
+2017-06-01 01:15:30,2017-06-01 01:25:00,570,Ogden Ave & Congress Pkwy,Wabash Ave & 9th St,Subscriber,Female,1988.0
+2017-06-01 01:20:10,2017-06-01 01:30:10,600,Halsted St & Clybourn Ave,Broadway & Barry Ave,Customer,,
+2017-06-01 01:35:00,2017-06-01 01:40:30,330,Shedd Aquarium,Millennium Park,Subscriber,Male,1990.0
+2017-06-01 01:45:00,2017-06-01 01:50:45,345,Paulina St & North Ave,Damen Ave & Charleston St,Subscriber,Female,1983.0
+2017-06-01 02:00:00,2017-06-01 02:10:00,600,Division St & Dearborn St,Lake Shore Dr & North Blvd,Customer,,

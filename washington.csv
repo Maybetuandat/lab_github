@@ -1,0 +1,21 @@
+Start Time,End Time,Trip Duration,Start Station,End Station,User Type
+2017-03-01 00:00:21,2017-03-01 00:05:40,319,17th St & G St NW,14th & L St NW,Subscriber
+2017-03-01 00:01:05,2017-03-01 00:10:00,535,E 47 St & 2 Ave,W 31 St & 7 Ave,Subscriber
+2017-03-01 00:03:15,2017-03-01 00:07:05,230,Columbia Pike & S Taylor St,Walter Reed Dr & 28th St S,Customer
+2017-03-01 00:05:00,2017-03-01 00:12:00,420,Jefferson Dr & 14th St SW,15th St & P St NW,Subscriber
+2017-03-01 00:07:30,2017-03-01 00:15:30,480,Rhode Island Ave & R St NW,17th & K St NW,Subscriber
+2017-03-01 00:10:00,2017-03-01 00:20:00,600,King St Metro,Eisenhower Ave & Mill Rd,Customer
+2017-03-01 00:12:45,2017-03-01 00:20:00,435,14th St & L St NW,17th St & G St NW,Subscriber
+2017-03-01 00:15:00,2017-03-01 00:25:00,600,Walter Reed Dr & 28th St S,Columbia Pike & S Taylor St,Subscriber
+2017-03-01 00:18:10,2017-03-01 00:25:40,450,15th St & P St NW,Jefferson Dr & 14th St SW,Customer
+2017-03-01 00:20:00,2017-03-01 00:28:00,480,17th & K St NW,Rhode Island Ave & R St NW,Subscriber
+2017-03-01 00:25:30,2017-03-01 00:30:30,300,Eisenhower Ave & Mill Rd,King St Metro,Subscriber
+2017-03-01 00:30:45,2017-03-01 00:38:15,450,4th & M St SW,12th St & L St NW,Subscriber
+2017-03-01 00:35:00,2017-03-01 00:45:00,600,12th St & L St NW,4th & M St SW,Customer
+2017-03-01 00:40:10,2017-03-01 00:48:30,500,New York Ave & 15th St NW,17th St & K St NW,Subscriber
+2017-03-01 00:45:00,2017-03-01 00:53:20,500,17th St & K St NW,New York Ave & 15th St NW,Subscriber
+2017-03-01 00:50:30,2017-03-01 01:00:30,600,14th & V St NW,Florida Ave & R St NW,Customer
+2017-03-01 01:00:00,2017-03-01 01:05:30,330,Florida Ave & R St NW,14th & V St NW,Subscriber
+2017-03-01 01:10:00,2017-03-01 01:18:00,480,11th St & H St NW,15th St & P St NW,Subscriber
+2017-03-01 01:15:20,2017-03-01 01:25:00,580,15th St & P St NW,11th St & H St NW,Subscriber
+2017-03-01 01:20:00,2017-03-01 01:30:00,600,L'Enfant Plaza,National Mall,Customer

@@ -1,0 +1,21 @@
+Start Time,End Time,Trip Duration,Start Station,End Station,User Type,Gender,Birth Year
+2017-05-01 00:00:20,2017-05-01 00:08:45,505,W 20 St & 7 Ave,E 12 St & Ave C,Subscriber,Male,1978.0
+2017-05-01 00:02:10,2017-05-01 00:15:30,800,E 47 St & 2 Ave,W 31 St & 7 Ave,Subscriber,Female,1985.0
+2017-05-01 00:05:00,2017-05-01 00:10:00,300,Fulton St & Broadway,Grand St & Allen St,Customer,,
+2017-05-01 00:07:35,2017-05-01 00:14:15,400,Broadway & E 14 St,E 13 St & Avenue A,Subscriber,Male,1990.0
+2017-05-01 00:10:00,2017-05-01 00:19:00,540,Vesey St & Church St,Greenwich St & Vestry St,Subscriber,Female,1982.0
+2017-05-01 00:15:15,2017-05-01 00:25:15,600,Barrow St & Hudson St,West St & Chambers St,Customer,,
+2017-05-01 00:20:00,2017-05-01 00:28:00,480,E 19 St & 3 Ave,W 29 St & 9 Ave,Subscriber,Male,1970.0
+2017-05-01 00:25:30,2017-05-01 00:35:00,570,E 58 St & 3 Ave,E 32 St & Park Ave,Subscriber,Female,1988.0
+2017-05-01 00:30:45,2017-05-01 00:38:15,450,Grand St & Allen St,Fulton St & Broadway,Subscriber,Male,1978.0
+2017-05-01 00:35:00,2017-05-01 00:45:00,600,W 42 St & 8 Ave,W 52 St & 11 Ave,Customer,,
+2017-05-01 00:40:10,2017-05-01 00:48:30,500,E 13 St & Avenue A,Broadway & E 14 St,Subscriber,Male,1990.0
+2017-05-01 00:45:00,2017-05-01 00:53:20,500,Greenwich St & Vestry St,Vesey St & Church St,Subscriber,Female,1982.0
+2017-05-01 00:50:30,2017-05-01 01:00:30,600,West St & Chambers St,Barrow St & Hudson St,Customer,,
+2017-05-01 01:00:00,2017-05-01 01:05:30,330,W 29 St & 9 Ave,E 19 St & 3 Ave,Subscriber,Male,1970.0
+2017-05-01 01:10:00,2017-05-01 01:18:00,480,E 32 St & Park Ave,E 58 St & 3 Ave,Subscriber,Female,1988.0
+2017-05-01 01:15:20,2017-05-01 01:25:00,580,E 7 St & Avenue A,W 4 St & 6 Ave,Subscriber,Male,1981.0
+2017-05-01 01:20:00,2017-05-01 01:30:00,600,W 10 St & 7 Ave,W 20 St & 7 Ave,Customer,,
+2017-05-01 01:25:30,2017-05-01 01:32:00,390,W 27 St & 7 Ave,W 14 St & 8 Ave,Subscriber,Male,1987.0
+2017-05-01 01:30:00,2017-05-01 01:36:40,400,E 16 St & 5 Ave,E 10 St & 3 Ave,Subscriber,Female,1994.0
+2017-05-01 01:35:10,2017-05-01 01:45:00,590,W 52 St & 11 Ave,W 42 St & 8 Ave,Customer,,
