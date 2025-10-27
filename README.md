@@ -42,6 +42,22 @@ git add .
 git commit -m"update"
 git push -u origin main
 ```
+
+**4. Refactor Code**
+**Now you will be working in your local repository, on the code in your BikeShare python file to make improvements to its efficiency and readability. You should repeat steps C through E three times to make at least three commits as you refactor.**
+
+| | Tasks |Git Command
+|-----------|----------|--------|
+A | Create a branch named refactoring on your local repository. |`git branch refactoring` |
+B | Switch to the refactoring  branch. | `git checkout refactoring`
+C |Similar to the process you used in  making the documentation changes, make 2 or more changes in refactoring your code.| 
+D |For each change, stage and commit your work with a descriptive message of the changes made|`git add bikeshare.py && git commit -m "update bikeshare.py"`
+E |Push your commits to your remote repository branch| `git push origin refactoring`
+F |Switch back to the master branch.| `git checkout main`
+G |Check the local repository log to see how all the branches have changed|`git log --oneline --graph --all`
+H |Go to GitHub.  Notice that you now have 3 branches.  Notice how the files change as you move through the branches|
+
+
 **3. So sánh ***git merge*** và ***git rebase*****
 **Git merge**
 Tạo và di chuyển sang nhánh mới feature
