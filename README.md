@@ -56,12 +56,12 @@ H | Switch back to the master branch. | `git checkout main`
 |  |**Tasks**| **Git Commands**|
 |------------|------------|---------|
 |A|Switch to the documentation  branch. | `git checkout documentation` |
-B| Make at least 2 additional changes to the documentation - this might be additional changes to the README or changes to the document strings and line comments of the bikeshare file. | `git switch documentation`|
-C | After each change, stage and commit your changes. When you commit your work, you should use a descriptive message of the changes made.  Your changes should be small and aligned with your commit message.|`echo "## Updated documentation section" >> README.md`|
-D | Push your changes to the remote repository branch|`git add README.md`|
-E | Switch back to the master branch. |`git commit -m "update README"` |
-F | Check the local repository log to see how all the branches have changed | `git push origin documentation`
-G | Go to Github.  Notice that you now have two branches available for your project, and when you change branches the README changes. | `git checkout main`
+B| Make at least 2 additional changes to the documentation - this might be additional changes to the README or changes to the document strings and line comments of the bikeshare file. ||
+C | After each change, stage and commit your changes. When you commit your work, you should use a descriptive message of the changes made.  Your changes should be small and aligned with your commit message.|`git add README.md && git commit -m "sua README v1"`|
+D | Push your changes to the remote repository branch|`git push origin documentation`|
+E | Switch back to the master branch. |`git checkout main` |
+F | Check the local repository log to see how all the branches have changed | `git log --oneline --graph --all`
+G | Go to Github.  Notice that you now have two branches available for your project, and when you change branches the README changes. |
 
 
 **3. So sánh ***git merge*** và ***git rebase*****
