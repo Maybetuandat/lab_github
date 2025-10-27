@@ -10,7 +10,7 @@ Lab_Github
 Thực hành các bài tập về **Git**
 
 **1. SetUp Your Rrepository**
-The following are the steps you will take to create your git repository, add your python code, and post your files on GitHub.
+**The following are the steps you will take to create your git repository, add your python code, and post your files on GitHub.**
 
 Step 1. Create a GitHub profile (if you don’t already have one).
 
@@ -34,6 +34,37 @@ G | Commit your changes with a descriptive message. | `git commit -m "move bikes
 H | Push your commit to your remote repository. | `git push origin main`
 
 
+
+
+**2. Improve Documentation** 
+**Now you will be working in your local repository, on the BikeShare python file and the README.md file. You should repeat steps C through E three times to make at least three commits as you work on your documentation improvements.**
+
+
+|  |**Tasks**| **Git Commands**|
+|------------|------------|---------|
+|A|Create a branch named documentation on your local repository | `git branch documentation` |
+B| Switch to the documentation branch. | `git switch documentation`|
+C | Update your README.md file.|`echo "## Updated documentation section" >> README.md`|
+D | Stage your changes |`git add README.md`|
+E | Commit your work with a descriptive message |`git commit -m "update README"` |
+G | Push your commit to your remote repository branch. | `git push origin documentation`
+H | Switch back to the master branch. | `git checkout main`
+
+**3. Additional Changes to Documentation.**
+
+**In a real world situation, you or other members of your team would likely be making other changes to documentation on the documentation branch.  To simulate this follow the tasks below.**
+
+
+|  |**Tasks**| **Git Commands**|
+|------------|------------|---------|
+|A|Switch to the documentation  branch. | `git checkout documentation` |
+B| Make at least 2 additional changes to the documentation - this might be additional changes to the README or changes to the document strings and line comments of the bikeshare file. ||
+C | After each change, stage and commit your changes. When you commit your work, you should use a descriptive message of the changes made.  Your changes should be small and aligned with your commit message.|`git add README.md && git commit -m "sua README v1"`|
+D | Push your changes to the remote repository branch|`git push origin documentation`|
+E | Switch back to the master branch. |`git checkout main` |
+F | Check the local repository log to see how all the branches have changed | `git log --oneline --graph --all`
+G | Go to Github.  Notice that you now have two branches available for your project, and when you change branches the README changes. |
+
 **5. Merge Branches**
 
 |  |**Tasks**| **Git Commands**|
@@ -47,14 +78,6 @@ F | Stage your changes. |`git add .`|
 G | Go to GitHub.  Notice that your master branch has all of the changes. |
 
 
-**2. Thực hiện chỉnh sửa và quản lý phiên bản**
-- Chỉnh sửa file README.md
-- Thực hiện các lệnh 
-```c
-git add .
-git commit -m"update"
-git push -u origin main
-```
 **3. So sánh ***git merge*** và ***git rebase*****
 **Git merge**
 Tạo và di chuyển sang nhánh mới feature
@@ -102,3 +125,4 @@ README.md
 
 ### Credits
 
+"## Updated documentation section" 
