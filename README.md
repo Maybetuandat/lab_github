@@ -43,8 +43,8 @@ H | Push your commit to your remote repository. | `git push origin main`
 |A|Create a branch named documentation on your local repository | `git branch documentation` |
 B| Switch to the documentation branch. | `git switch documentation`|
 C | Update your README.md file.|`echo "## Updated documentation section" >> README.md`|
-D | Stage your changes |`type .gitignore`|
-E | Commit your work with a descriptive message |`git status` |
+D | Stage your changes |`git add README.md`|
+E | Commit your work with a descriptive message |`git commit -m "update README"` |
 F | Stage your changes. |`git add .`|
 G | Push your commit to your remote repository branch. | `git commit -m "move bikeshare.py and  add data.csv to .gitgnore"`
 H | Switch back to the master branch. | `git push origin main`
