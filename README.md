@@ -93,34 +93,17 @@ E | Push the repository to your remote repository. |`git push origin main` |
 F | Stage your changes. |`git add .`|
 G | Go to GitHub.  Notice that your master branch has all of the changes. |
 
-**3. So sánh ***git merge*** và ***git rebase*****
-**Git merge**
-Tạo và di chuyển sang nhánh mới feature
-```
-git checkout -b feature
-git add README.md
-git commit -m "update branch feature"
-```
-- Quay trở lại nhánh main
-```
-git checkout main
-git add README.md
-git commit -m "update branch main"
-```
+**6. Changing older commit messages**
+|  |**Tasks**| **Git Commands**|
+|------------|------------|---------|
+|A| Switch to the master branch. | `git checkout main` |
+B| Check the local repository log to see how all the branches have changed. | `git log --oneline --graph --all`|
+C | Display a list of the commits that need edit messages.|`git log --oneline hoặc git log --oneline --reverse`|
+D | Adding types to the titles commit into older commit messages|`git rebase -i HEAD~n`|
+E | Push the repository to your remote repository. |`git push origin main` |
+G | Go to GitHub.  Notice that your master branch has all of the changes. 
 
-- Dùng lệnh **git merge** để merge feature vào main
-``` 
-git merge feature -m "merge feature to main"
-```
-
-**Git rebase**
-- Chuyển sang nhánh feature
-- Cập nhật file README.md
-- **git rebase main**
-
-![Commit graph](images/gitrebase.png)
-
-### So sánh giữa Merge và Rebase
+**So sánh ***git merge*** và ***git rebase*****
 
 | **Merge** | **Rebase** |
 |------------|------------|
