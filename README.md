@@ -7,7 +7,7 @@
 lab_git
 
 ### Description
-Describe what your project is about and what it does
+luyen tap Git
 
 ### Files used
 Include the files used
