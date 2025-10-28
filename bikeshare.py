@@ -47,7 +47,7 @@ def get_filters():
                     break
             if messsage == 'Valid month':
                 continue
-            messsage = '\nInvalid month. Please enter day in ("January", "February", "March", "April", ' \
+            messsage = '\nInvalid month. Please enter day in ("January", "February", "March", "April", "May", "June" ' \
                        '"May", ' \
                        '"June")!\n '
             print(messsage)
