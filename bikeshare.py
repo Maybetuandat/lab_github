@@ -9,7 +9,7 @@ CITY_DATA = { 'Chicago': 'chicago.csv',
 months = ['January', 'February', 'March', 'April', 'May', 'June']
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-def get_filters():
+def get_filters_input():
     """
     Asks user to specify a city, month, and day to analyze.
 
@@ -47,9 +47,13 @@ def get_filters():
                     break
             if messsage == 'Valid month':
                 continue
-            messsage = '\nInvalid month. Please enter day in ("January", "February", "March", "April", ' \
+<<<<<<< HEAD
+            messsage = '\nInvalid month. Please enter day in ("January", "February", "March", "April", "May", "June" ' \
                        '"May", ' \
                        '"June")!\n '
+=======
+            messsage = '\nInvalid month. Please enter day in ("January", "February", "March", "April", "May", "June")!\n '
+>>>>>>> refactoring
             print(messsage)
     except KeyboardInterrupt:
         print('\nNo input taken\n')
