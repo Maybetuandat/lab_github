@@ -87,7 +87,7 @@ H |Go to GitHub.  Notice that you now have 3 branches.  Notice how the files cha
 |------------|------------|---------|
 |A| CSwitch to the master branch. | `git checkout main` |
 B| Pull the changes you and your coworkers might have made in the passing days (in this case, you won't have any updates, but pulling changes is often the first thing you do each day). | `git pull origin main`|
-C | Since your changes are all ready to go, merge all the branches into the master. Address any merge conflicts. If you split up your work among your branches correctly, you should have no merge conflicts.|`git merge documentation && git merge rèactoring`|
+C | Since your changes are all ready to go, merge all the branches into the master. Address any merge conflicts. If you split up your work among your branches correctly, you should have no merge conflicts.|`git merge documentation && git merge refactoring`|
 D | You should see a message that shows the changes to the files, insertions, and deletions.||
 E | Push the repository to your remote repository. |`git push origin main` |
 F | Stage your changes. |`git add .`|
