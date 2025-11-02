@@ -1,1 +1,1 @@
-this is test for lab github. I modify this file for check git status. This file will be tracked but not add
+maybe i forgot to push .env enviroment, This file is mock version of the .env file
